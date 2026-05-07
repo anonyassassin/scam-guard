@@ -39,9 +39,11 @@ scam-guard/
 
 ## 1. Clone & Install
 
+```bash
 git clone https://github.com
 cd scam-guard
 npm run install:all
+```
 
 ## 2. Run the App
 
