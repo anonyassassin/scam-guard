@@ -43,6 +43,8 @@ scam-guard/
 git clone https://github.com/anonyassassin/scam-guard
 cd scam-guard
 npm run install:all
+cd frontend/my-app
+npm run build
 ```
 
 ## 2. Run the App
