@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install:all": "npm install --prefix backend && npm install --prefix frontend/my-app && npm install -g concurrently",
-    "build": "next build --prefix frontend/my-app",
+    "build": "npx next build ./frontend/my-app/",
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend/my-app\"",
     "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend/my-app\""
   },
