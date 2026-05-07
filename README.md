@@ -40,7 +40,7 @@ scam-guard/
 ## 1. Clone & Install
 
 ```bash
-git clone https://github.com
+git clone https://github.com/anonyassassin/scam-guard
 cd scam-guard
 npm run install:all
 ```
