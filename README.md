@@ -19,7 +19,7 @@ A full-stack web application that helps users identify and protect themselves fr
 ```
 scam-guard/
 ├── backend/          # Express.js REST API
-│   ├── index.js
+│   ├── server.js
 │   └── package.json
 ├── frontend/         # Next.js application
 │   ├── app/
@@ -47,22 +47,8 @@ git clone https://github.com/anonyassassin/scam-guard.git
 cd scam-guard
 ```
 
-### 2. Set up environment variables
 
-Create a `.env` file inside the `backend/` folder and fill in the required values:
-
-```env
-PORT=5000
-# Add your other environment variables here
-```
-
-If the frontend needs environment variables, create `frontend/.env.local`:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000
-```
-
-### 3. Install all dependencies
+### 2. Install all dependencies
 
 From the **root** folder, run:
 
@@ -87,7 +73,7 @@ This starts both servers simultaneously:
 | Server   | URL                    |
 |----------|------------------------|
 | Frontend | http://localhost:3000  |
-| Backend  | http://localhost:5000  |
+| Backend  | http://localhost:8000  |
 
 ### Production mode
 
@@ -111,7 +97,7 @@ Run these from the **root** folder:
 
 ## 🔌 API Overview
 
-The backend runs on `http://localhost:5000`. Below is a summary of available endpoints:
+The backend runs on `http://localhost:8000`. Below is a summary of available endpoints:
 
 | Method | Endpoint      | Description                  |
 |--------|---------------|------------------------------|
