@@ -13,20 +13,23 @@ A full-stack web application and Chrome extension that helps users identify and 
 ------------------------------
 ## 📁 Project Structure
 
+```text
 scam-guard/
-├── backend/          # Express.js REST API
+├── backend/            # Express.js REST API
 │   ├── server.js
 │   └── package.json
-├── frontend/         # Next.js application
+├── frontend/           # Next.js application
 │   ├── app/
 │   └── package.json
-├── extension/        # Chrome Extension files
+├── extension/          # Chrome Extension files
 │   ├── manifest.json
 │   ├── background.js
 │   └── blocked.html
 ├── .gitignore
-├── package.json      # Root — runs both servers
+├── package.json        # Root — runs both servers
 └── README.md
+```
+
 
 ------------------------------
 ## ⚙️ Getting Started## Prerequisites
