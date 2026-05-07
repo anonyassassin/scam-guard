@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Scam Detector",
+  "version": "1.0",
+  "permissions": ["tabs", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
