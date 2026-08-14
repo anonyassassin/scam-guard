@@ -1,7 +1,7 @@
-## 🛡️ Scam Guard
+## Scam Guard
 A full-stack web application and Chrome extension that helps users identify and protect themselves from scams. Built with a Next.js frontend, an Express.js backend, and a Chrome Extension for real-time protection.
 ------------------------------
-## 🚀 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -11,7 +11,7 @@ A full-stack web application and Chrome extension that helps users identify and 
 | Runtime | Node.js |
 
 ------------------------------
-## 📁 Project Structure
+## Project Structure
 
 ```text
 scam-guard/
@@ -32,7 +32,7 @@ scam-guard/
 
 
 ------------------------------
-## ⚙️ Getting Started## Prerequisites
+## Getting Started## Prerequisites
 
 * [Node.js](https://nodejs.org/) (v18 or higher)
 * npm (comes with Node.js)
@@ -56,7 +56,7 @@ npm run dev
 | Backend | http://localhost:8000 |
 
 ------------------------------
-## 🧩 Chrome Extension Setup
+## Chrome Extension Setup
 The extension provides real-time protection by scanning URLs as you browse.
 ## Installation
 
@@ -72,7 +72,7 @@ The extension provides real-time protection by scanning URLs as you browse.
 * Blocking: If a scam verdict is returned, the tab is redirected to blocked.html.
 
 ------------------------------
-## 🔌 API Overview
+## API Overview
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -81,17 +81,14 @@ The extension provides real-time protection by scanning URLs as you browse.
 | GET | /api/health | Server status check |
 
 ------------------------------
-## 🤝 Contributing
+## Contributing
 
    1. Fork the repository.
    2. Create a feature branch: git checkout -b feature/name.
    3. Push changes and open a Pull Request.
 
 ------------------------------
-## 📄 License
-MIT License — free to use, modify, and distribute.
-------------------------------
-## 👤 Author
+## Author
 Anonyassassin
 
 * GitHub: @anonyassassin
